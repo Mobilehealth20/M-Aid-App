@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false"
+    tools:context=".Poisoning">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textPoison"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#422D2D"
+                android:text="Poisoning"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textPoison1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison2"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:text="Swallowed"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison3"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="1. Reassure the casualty. Keep any containers
+with the info about the possible poison "
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison4"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="2. If their lips are burning, give frequent sips of water
+or milk. Do not attempt to make them vomit"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison5"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="3. If the casualty is unresponsive, open their airway
+ and check the breathing"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison6"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="4. If they are breathing, put them in recovery
+   position. If they are not, be prepared to resuscitate"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison7"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="5. When the ambulance arrives, pass on any details
+of the poison "
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison8"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:inputType="textMultiLine"
+                android:text="Skin"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison9"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="1. Keep the containers with the info about the poison"
+                android:textStyle="bold" />
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison10"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="2. Do not touch the affected area with your bare hands"
+                android:textStyle="bold" />
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison11"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="3. Flush away residual poison with running water for
+at least 20 mins. Gently remove the contaminated clothing as you do this "
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison12"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="4. If they are Unresponsive, open their airway and check
+breathing"
+                android:textStyle="bold" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison13"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="5. If they are breathing, put them in the recovery
+position. If they are not, be prepared to resuscitate"
+                android:textStyle="bold" />
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textPoison14"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="6. When the ambulance comes, pass on any info of the poison"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imagePoison2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/poison2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

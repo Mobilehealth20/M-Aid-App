@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choking">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textChoke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#422D2D"
+                android:text="Choking"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textChoke1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:text="Adult/ Child"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="1. Ask the casualty, 'Are you choking?'"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="2. Encourage the casualty to cough"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="3. If they cannot clear the object themselves, support
+them with one hand while leaning them forward"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="4. Give up to five back blows between shoulder blades
+then check their mouth"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="5. If unsuccessful, try up to five abdominal thrusts
+Stand behind the casualty and link your hands below their rib cage with the lower hand
+clenched in a fist."
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="6. Pull sharply inwards and upward, check their mouth."
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="7. Repeat these steps until help arrives"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+
+
+            <ImageView
+                android:id="@+id/imageChoke1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/choking3"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="Infant"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textChoke3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="NB: Never use abdominal thrusts on an infant"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="1. Lay the infant face down on your thigh while supporting
+their head. Give the infant up to five back blows."
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="2. Turn the infant over so that yhey are lying on your
+other thigh and check their mouth for obstructions "
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="3.Place two fingers on the breastbone, one fingers
+breadth below the nipple line and push downwards"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="4. Check the mouth"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="5. As you wait for professional help repeat he procedures "
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <ImageView
+                android:id="@+id/imageChoke2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/choking2"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

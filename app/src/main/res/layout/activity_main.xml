@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/backg1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="logout"
+                android:onClick="logout"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btnPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BOOK APPOINTMENT"
+                android:onClick="logout"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/textMaps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAPS API"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textEmergency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#9A261D"
+                android:text="EMERGENCY"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textResuscitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESUSCITATION"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textSeizure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEIZURE"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textStroke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STROKE"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textAsthma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASTHMA"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textPoisoning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POISONING"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HEAD INJURY"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textDrowning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DROWNING"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textChoking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHOKING"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textChest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHEST PAIN"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textBleeding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BLEEDING"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textBurns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BURNS"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:id="@+id/textBones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BONES AND MUSCLES"
+                android:textSize="18sp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_margin="2dp"/>
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

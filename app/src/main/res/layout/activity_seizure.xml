@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seizure"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textSeiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#422D2D"
+        android:text="Seizure"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textseiz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz2"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="Absence Seizure may have the following signs and symptoms: "/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz3"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="1. Lost awareness for seconds"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz4"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="2. Unusual movements"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz5"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="Conclusive Seizure have some or all of the following
+signs and symptoms:"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz6"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="1. Stiffen and fall to the ground"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz7"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="2. Convulsing"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz8"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="3. Rigid body and Clenched jaw"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz9"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="4. Difficulty in breathing/ no breathing"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz10"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="5. Loss of bowel/ bladder control"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz11"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="6. Excessive saliva from the mouth"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz12"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="7. They maybe unaware of the surroundings, feel very
+tired and can fall into a deep sleep"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz13"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="First Aid procedures"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz14"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="1. For the absence seizure reassure and keep them safe"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz15"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="2. Clear the space around the casualty and protect
+them from dangerous objects."/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textSeiz16"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="3. Loosen tight clothing around their neck, chest and waist"/>
+
+
+        <ImageView
+            android:id="@+id/imageSeiz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:padding="20dp"
+            android:src="@drawable/seizure3" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

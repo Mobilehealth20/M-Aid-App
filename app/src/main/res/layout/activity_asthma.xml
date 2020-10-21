@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asthma">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textAsma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#422D2D"
+            android:text="Asthma"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textAsma1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma2"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="Recognition"
+            />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma3"
+            android:padding="15dp"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="1. Previous history of asthma"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma4"
+            android:padding="15dp"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="2. Difficulty in breathing"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma5"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="3. Wheezing"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma6"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="4. Difficulty talking in full sentences"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma7"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="5. Increased breathing rate"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma8"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="First Aid procedures"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma9"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="1. Keep calm and reassure the casualty. Get them to use their inhaler"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textAsma10"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:text="2. Let them adopt the position they find comfortable. Do not make the
+casualty lie down"/>
+
+        <ImageView
+            android:id="@+id/imageAsma2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/asthma1"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

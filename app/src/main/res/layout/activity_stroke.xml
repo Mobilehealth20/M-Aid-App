@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stroke">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textStrok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#422D2D"
+            android:text="Stroke"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textStrok1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke2"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:text="Recognition"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke3"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="1. Facial weakness. Unable to smile or with a droopy
+mouth or eye"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke4"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="2. Arm weakness, unable to lift arms or legs"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke5"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="3. Speech problems or unable to speak clearly"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke6"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="4. Time to call the emergency contacts"/>
+
+        <ImageView
+            android:id="@+id/imageStrok1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/stroke"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke7"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="First Aid procedures"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke8"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="1. Keep the casualty in a comfortable, supported
+position"/>
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke9"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="2. Loosen any tight clothing and continue to reassure
+the casualty"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke10"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="3. Monitor and record the casualty's level of response,
+pulse and breathing"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke11"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="4. If they are Unresponsive, open their airway and check
+breathing"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/textStroke12"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="5. If they are breathing, put them in the recovery
+position. If they are not, be prepared to resuscitate "/>
+
+        <ImageView
+            android:id="@+id/imageStrok2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/stroke1"/>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

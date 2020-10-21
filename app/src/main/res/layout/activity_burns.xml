@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burns">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textBurn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#422D2D"
+                android:text="Burns"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textBurn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+            <ImageView
+                android:id="@+id/imageBurn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/burn3"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="1. Do not touch the burnt area"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="2. Leave any clothing stuck to the burn in place unless
+it is contaminated with chemicals"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="3. Leave any blisters intact"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="15dp"
+                android:text="4. Hold the burnt area under cold running water for
+10 minutes, or until the pain settles. As you do this remove any jewelery or other constrictive clothing."
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <ImageView
+                android:id="@+id/imageBurn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/burn"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Resuscitation">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#422D2D"
+            android:text="Resuscitation / CPR"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine1"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="The first step is to assess the situation by checking the Danger, Response, Airway, Breathing and Circulation "/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/cpr1" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine2"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="1. Place towel or item of clothing over the face"/>
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine3"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="2. Perform chest compressions"/>
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine4"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="3. Use a defibrillator if available"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine5"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="4. Continue chest compressions until help arrives"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/cpr2"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine6"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="1. Start CPR. Kneel by the casualty and put the heel of your hand
+in the middle of their chest, put your other hand on top of the first.
+Interlock your fingers making sure they don't touch ribs."/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine7"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="2. Keep your arms straight and lean over the casualty.Press down hard,
+to a depth of about 5-6 cm before releasing the pressure, allowing the chest to come back up"/>
+
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine8"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="3. If one has access to a Defibrillator, switch it on and follow the
+defibrillator voice prompts while you continue CPR. If a shock is needed from the defibrillator you will
+have to stop chest compressions."/>
+
+            <TextView
+                android:id="@+id/textC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="NB: DO NOT GIVE RESCUE BREATHS to adults"/>
+
+
+            <TextView
+                android:id="@+id/textD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="NB: For a baby alternate 2 RESCUE BREATHS, 30 CHEST COMPRESSIONS"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/cpr3"/>
+
+
+            <MultiAutoCompleteTextView
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/textMultiLine9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="PERFORM 5 INITIAL RESCUE BREATHS to a child"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine10"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="1. Ensure the airway is open. Carefully remove any visible obstruction
+from the mouth"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine11"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="2. Gently support chin with two fingers of one hand. With the other hand
+pinch the soft parts of the child's nose "/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine12"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="3. Take a breath and place your mouth around te child's lips, making a
+good seal. Breathe steadily into the child's mouth for one second. Watch as the chest rise"/>
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/textMultiLine13"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:text="4. Keeping hands in position, remove your mouth and allow their chest
+to fall. Repeat the steps, keeping airway open while pinching the child's nose and supporting
+their chin"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Give 30 chest compressions at a rate of 100/120 compressions per minute"/>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="Continue alternating 30 chest compressions and 2 rescue breaths"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                app:srcCompat="@drawable/cpr5"
+                />
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

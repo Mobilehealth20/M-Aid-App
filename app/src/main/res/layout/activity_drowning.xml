@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drowning">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textDrown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#422D2D"
+                android:text="Drowning"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textDrown1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="Assess the situation by checking:"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="a) Danger"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="b) Response"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="c) Airway"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="c) Breathing "
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="d) Circulation"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <ImageView
+                android:id="@+id/imageDrown2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/drowning4"/>
+
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="First Aid procedures"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text=" Perform CPR on the casualty"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

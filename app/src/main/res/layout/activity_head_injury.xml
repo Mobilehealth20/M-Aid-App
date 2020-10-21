@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeadInjury">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#422D2D"
+                android:text="Head Injury"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textHead1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/textHead2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="Recognition"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <EditText
+                android:id="@+id/textHead3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="a) Concussion"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="1. Recent blow to the head"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="2. General headache"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="3. Impaired or becoming unresponsive"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="4. Dizziness on recovery "
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="5. Memory loss " />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:padding="15dp"
+                android:text="6. Confusion"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textHead4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="b) Compression and Fractures"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="1. Recent blow to the head with intense headache"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="2. Poor responses or unresponsive"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="3. Confusion, Strong pulse and pupils of unequal size"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="4. Weakness on one side or drowsiness "
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="5. History of injury, bruise to the head"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="6. Soft area or dip in scalp"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <ImageView
+                android:id="@+id/imageHead2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/head"/>
+
+            <EditText
+                android:id="@+id/textHead6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="Treatment"
+                android:textStyle="bold"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="1. Monitor the casualty regularly on their level of response"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="2. When they have recovered, ask them to be fully assessed by a medical
+practitioner"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

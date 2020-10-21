@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bleeding">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textBleed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#422D2D"
+            android:text="Bleeding"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textBleed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="CALL 999 /  CALL 0700 999 999 Hospital emergency contact"
+            android:textColor="#000000"
+            android:textStyle="italic" />
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Minor Bleed"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="1. If it is dirty, clean the wound under running water. Pat
+the wound dry using sterile materials."
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="2. Cover the wound completely with a sterile material like cotton"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="3. Support the injured area."
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="4. Clean the surrounding area, remove the wound covering
+and apply a sterile adhesive dressing to the wound"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+        <ImageView
+            android:id="@+id/imageBleed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/bleeding1"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:text="Severe Bleed"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="1. Control bleeding by applying direct pressure to the wound "
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="2. Dial the emergency contacts"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="3. Apply a dressing firmly to control bleeding. Be careful it is
+not so tight that it restricts circulation"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="4. Support the injured area in a raised position"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:padding="15dp"
+            android:text="5. If blood comes through the dressing, apply another on top.
+If the blood also seeps through, remove both dressings and reapply a new sterile dressing
+using direct presssure on the wound"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <ImageView
+            android:id="@+id/imageBleed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/bleeding2"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
