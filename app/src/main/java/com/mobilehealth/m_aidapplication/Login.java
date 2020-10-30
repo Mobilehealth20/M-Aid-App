@@ -13,8 +13,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.StJoseph.aidapp.R;
-import com.StJoseph.aidapp.Register;
+import com.mobilehealth.m_aidapplication.R;
+import com.mobilehealth.m_aidapplication.Register;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

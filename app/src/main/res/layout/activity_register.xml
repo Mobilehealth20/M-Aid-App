@@ -64,6 +64,9 @@
         android:padding="10dp"
         android:fontFamily="@font/gabriela"
         android:textSize="20sp"
+        android:drawableStart="@drawable/ic_stat_mail"
+        android:drawableLeft="@drawable/ic_stat_mail"
+        android:drawablePadding="5dp"
         android:inputType="textEmailAddress"/>
 
     <EditText
@@ -78,6 +81,9 @@
         android:padding="10dp"
         android:fontFamily="@font/gabriela"
         android:textSize="20sp"
+        android:drawableStart="@drawable/ic_stat_lock"
+        android:drawableLeft="@drawable/ic_stat_lock"
+        android:drawablePadding="5dp"
         android:inputType="textPassword"/>
 
     <Button

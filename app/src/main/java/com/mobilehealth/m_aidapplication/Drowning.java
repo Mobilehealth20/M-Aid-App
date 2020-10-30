@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.StJoseph.aidapp.R;
+import com.mobilehealth.m_aidapplication.R;
 
 public class Drowning extends AppCompatActivity {
 

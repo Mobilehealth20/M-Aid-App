@@ -12,7 +12,10 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.mobilehealth.m_aidapplication.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -30,6 +33,7 @@ import java.util.Arrays;
 
 public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallback {
     EditText mLatitude, mLongitude;
+    ProgressBar progress2;
 
     private GoogleMap mMap;
     private DatabaseReference mDatabaseReference;
@@ -53,6 +57,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
 
         mLatitude = findViewById(R.id.editLat);
         mLongitude = findViewById(R.id.editLongi);
+        progress2 = findViewById(R.id.progress);
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, PackageManager.PERMISSION_GRANTED);
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PackageManager.PERMISSION_GRANTED);
 
@@ -158,8 +163,23 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
     }
 
     public void updateButtonOnClick(View view){
-        mDatabaseReference.child("latitude").push().setValue(mLatitude.getText().toString());
-        mDatabaseReference.child("longitude").push().setValue(mLongitude.getText().toString());
+        mDatabaseReference.child("Latitude Coordinates").push().setValue(mLatitude.getText().toString()).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Toast.makeText(MapsActivity2.this, "Latitude Successfully uploaded",Toast.LENGTH_SHORT).show();
+                progress2.setVisibility(View.GONE);
+
+            }
+        });
+        mDatabaseReference.child("Longitude Coordinates").push().setValue(mLongitude.getText().toString()).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Toast.makeText(MapsActivity2.this, "Longitude Successfully uploaded",Toast.LENGTH_SHORT).show();
+                progress2.setVisibility(View.GONE);
+            }
+        });
+
+        progress2.setVisibility(View.VISIBLE);
 
     }
 }
