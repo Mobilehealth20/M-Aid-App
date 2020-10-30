@@ -8,11 +8,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.StJoseph.aidapp.Poisoning;
-import com.StJoseph.aidapp.R;
-import com.StJoseph.aidapp.Resuscitation;
-import com.StJoseph.aidapp.Seizure;
-import com.StJoseph.aidapp.Stroke;
+import com.mobilehealth.m_aidapplication.Poisoning;
+import com.mobilehealth.m_aidapplication.R;
+import com.mobilehealth.m_aidapplication.Resuscitation;
+import com.mobilehealth.m_aidapplication.Seizure;
+import com.mobilehealth.m_aidapplication.Stroke;
 import com.google.firebase.auth.FirebaseAuth;
 import com.mobilehealth.m_aidapplication.Asthma;
 import com.mobilehealth.m_aidapplication.Bleeding;
@@ -157,8 +157,6 @@ Button btn, maps;
             }
         });
 
-        getSupportActionBar().hide();
-
 
     }
 
@@ -167,5 +165,5 @@ Button btn, maps;
         startActivity(new Intent(getApplicationContext(), Login.class));
         finish();
     }
-    }
+
 }

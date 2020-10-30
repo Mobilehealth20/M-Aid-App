@@ -4,12 +4,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.StJoseph.aidapp.BookHelperClass;
-import com.StJoseph.aidapp.R;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.mobilehealth.m_aidapplication.BookHelperClass;
+import com.mobilehealth.m_aidapplication.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -17,6 +20,7 @@ public class BookAppointment extends AppCompatActivity {
 TextView aid, book;
 EditText full, idNo, mobile, mailE, boxP;
 Button booking;
+ProgressBar progress2;
 FirebaseDatabase rootNode;
 DatabaseReference reference;
 
@@ -32,12 +36,14 @@ DatabaseReference reference;
         mailE=findViewById(R.id.editEmail0);
         boxP=findViewById(R.id.editBox);
         booking=findViewById(R.id.btnBook9);
+        progress2 = findViewById(R.id.progress);
+
 
         booking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rootNode = FirebaseDatabase.getInstance();
-                reference = rootNode.getReference("users");
+                reference = rootNode.getReference("Booking Appointments");
 
 
                 //Get all the values
@@ -49,11 +55,26 @@ DatabaseReference reference;
 
                 BookHelperClass helperClass = new BookHelperClass(name, id, no, mail, date);
 
-                reference.child(id).setValue(helperClass);
+                progress2.setVisibility(View.VISIBLE);
+
+                reference.child(name).setValue(helperClass).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Toast.makeText(BookAppointment.this, "Successfully uploaded",Toast.LENGTH_SHORT).show();
+                        progress2.setVisibility(View.GONE);
+                    }
+
+                });
+
+
+
+
+
             }
         });
 
-        getSupportActionBar().hide();
+
+
 
     }
 }

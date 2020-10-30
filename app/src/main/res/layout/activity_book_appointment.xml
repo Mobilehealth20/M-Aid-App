@@ -8,115 +8,134 @@
     android:orientation="vertical"
     android:background="@drawable/backg3">
 
-    <TextView
-        android:id="@+id/text12"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginRight="20dp"
-        android:background="#F84538"
-        android:fontFamily="@font/gabriela"
-        android:text="+AID APPLICATION"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/text13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="@font/gabriela"
-        android:text="Book Appointment"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:background="#F84538"
+            android:fontFamily="@font/gabriela"
+            android:text="+AID APPLICATION"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/editName14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="Full Name"
-        android:padding="10dp"
-        android:fontFamily="@font/gabriela"
-        android:textSize="20sp"/>
-
-    <EditText
-        android:id="@+id/editId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="ID"
-        android:padding="10dp"
-        android:fontFamily="@font/gabriela"
-        android:textSize="20sp"
-        android:inputType="number"/>
-
-    <EditText
-        android:id="@+id/editMobile"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="Mobile NO"
-        android:padding="10dp"
-        android:fontFamily="@font/gabriela"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/editEmail0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="Enter email"
-        android:padding="10dp"
-        android:fontFamily="@font/gabriela"
-        android:textSize="20sp"
-        android:inputType="textEmailAddress"/>
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/gabriela"
+            android:text="Book Appointment"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
+        <EditText
+            android:id="@+id/editName14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gabriela"
+            android:hint="Full Name"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/editBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="Preferred date"
-        android:padding="10dp"
-        android:fontFamily="@font/gabriela"
-        android:textSize="20sp"
-        android:inputType="date"/>
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gabriela"
+            android:hint="ID"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnBook9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="BOOK"
-        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gabriela"
+            android:hint="Mobile NO"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
+        <EditText
+            android:id="@+id/editEmail0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gabriela"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/editBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gabriela"
+            android:hint="Preferred date"
+            android:inputType="date"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBook9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="BOOK"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 </LinearLayout>
